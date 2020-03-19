@@ -1,11 +1,11 @@
 # Atividades de banco de dados.
 ### Integrantes: Arthur Segato Paulo, João Vitor.
 
-**Proposta:**
+#### **Proposta:**
 
 Uma plataforma para ajudar alunos com dificuldade em aprendizado nas escolas ou universidades a encontrarem professores particulares ou veteranos que possam os ajudar a estudar.
 
-**Funcionamento:**
+#### **Funcionamento:**
 
 O usuário clica na opção para se cadastra na plataforma, é apresentada uma tela onde ele opta por se registrar inserido seu email e senha ou fazendo login com uma plataforma como google ou facebook, após isso o usuário será enviado para uma tela onde deve escolher se ele é um estudante ou se é um professor/tutor, após isso é apresentado um formulário que deve ser preenchido com as suas informações básicas como:
 
