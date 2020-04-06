@@ -1,5 +1,5 @@
 # Atividades de banco de dados.
-### Integrantes: Arthur Segato Paulo, João Vitor.
+### Integrantes: Arthur Segato Paulo.
 ### Turma: CC1Mb
 
 #### **Proposta:**
