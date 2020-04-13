@@ -8,7 +8,7 @@ Uma plataforma para ajudar alunos com dificuldade em aprendizado nas escolas ou 
 
 #### **Funcionamento:**
 
-O usuário clica na opção para se cadastra na plataforma, é apresentada uma tela onde ele opta por se registrar inserido seu email e senha ou fazendo login com uma plataforma como google ou facebook, após isso o usuário será enviado para uma tela onde deve escolher se ele é um estudante ou se é um professor/tutor, após isso é apresentado um formulário que deve ser preenchido com as suas informações básicas como:
+O usuário clica na opção para se cadastra na plataforma, é apresentada uma tela onde ele opta por se registrar inserido seu email e senha ou fazendo login com um serviço como google ou facebook, após isso o usuário será enviado para uma tela onde deve escolher se ele é um estudante ou se é um professor/tutor, após isso é apresentado um formulário que deve ser preenchido com as suas informações básicas como:
 
 - Nome completo.
 - Idade
