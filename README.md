@@ -8,7 +8,7 @@ Uma plataforma para ajudar alunos com dificuldade em aprendizado nas escolas ou 
 
 #### **Funcionamento:**
 
-O usuário clica na opção para se cadastra na plataforma, é apresentada uma tela onde ele opta por se registrar inserido seu email e senha ou fazendo login com uma plataforma como google ou facebook, após isso o usuário será enviado para uma tela onde deve escolher se ele é um estudante ou se é um professor/tutor, após isso é apresentado um formulário que deve ser preenchido com as suas informações básicas como:
+O usuário clica na opção para se cadastra na plataforma, é apresentada uma tela onde ele opta por se registrar inserido seu email e senha ou fazendo login com um serviço como google ou facebook, após isso o usuário será enviado para uma tela onde deve escolher se ele é um estudante, tutor ou professor, após isso é apresentado um formulário que deve ser preenchido com as suas informações básicas como:
 
 - Nome completo.
 - Idade
@@ -18,7 +18,7 @@ O usuário clica na opção para se cadastra na plataforma, é apresentada uma t
 - Telefone / Celular
 - Sexo
 
-Após isso a tela a seguir vai variar com o tipo de conta escolhida pelo usuário, caso seja um aluno vai ser pedido que ele insira a instituição e a turma em que estuda, no caso de um professor/tutor, em quais áreas ele é formado ou que tenha conhecimento para ensinar.
+A próxima tela vai variar com o tipo de conta escolhida pelo usuário, caso seja um aluno vai ser pedido que ele insira a instituição e a turma em que estuda, já um tutor, além da instiuição e da turma será perguntado quais matérias tenha conhecimento para ensinar, e se caso seja um professor, as informações de sua formação acadêmica e sua área de atuação.
 
 Depois que a conta for criada o aluno poderá pesquisar professores/tutores por matérias em que tenha dificuldade, e selecionar o que tiver os melhores preços ou horários disponíveis, após confirmar o aluno poderá marcar com o professor/tutor por onde vai ser a aula, virtualmente ou fisicamente, e no caso da última em qual local.
 
