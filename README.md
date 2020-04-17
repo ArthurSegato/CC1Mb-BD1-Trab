@@ -27,3 +27,6 @@ Enquanto que na tela do professor/tutor, o mesmo poderá cadastrar as matérias 
 Caso o aluno encontre um professor e decida escolher ele para ter aulas, um pedido será enviado para o professor que poderá aceitar ou recusar de acordo com sua agenda, após a confirmação, será aberto um chat entre ambos por onde poderão se comunicar.
 
 No momento da aula ambos terão que informar no aplicativo que a aula começou, e após a aula terminar ambos devem confirmar o termino da mesma, após um tempo o sistema vai pedir uma avaliação, tanto do professor quanto do aluno.
+
+## Modelo Conceitual
+![alt text](https://raw.githubusercontent.com/ArthurSegato/CC1Mb-BD1-Trab/master/Modelo%20Conceitual.PNG "Modelo Conceitual")
