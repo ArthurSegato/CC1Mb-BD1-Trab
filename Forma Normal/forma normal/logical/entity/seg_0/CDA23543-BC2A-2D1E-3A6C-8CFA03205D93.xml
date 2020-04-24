@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDA23543-BC2A-2D1E-3A6C-8CFA03205D93" name="Endereço_Professor">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-24 00:54:15 UTC</createdTime>
+<ownerDesignName>forma normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UF" id="C6536540-F2AC-7B5E-C539-58F5D1E80148">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-24 00:58:23 UTC</createdTime>
+<ownerDesignName>forma normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="7FBAA5FC-911D-4128-823B-9172F502A4D3">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-24 00:58:23 UTC</createdTime>
+<ownerDesignName>forma normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bairro" id="843501DF-72C6-90BE-8FE6-7C57BF1853D4">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-24 00:58:23 UTC</createdTime>
+<ownerDesignName>forma normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rua" id="43608065-44E1-D76E-2F45-D2A92FD49643">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-24 00:58:23 UTC</createdTime>
+<ownerDesignName>forma normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_Moradia" id="ECF0EF0E-E27C-2068-318E-1688D5641222">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-24 00:58:23 UTC</createdTime>
+<ownerDesignName>forma normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
