@@ -30,3 +30,5 @@ No momento da aula ambos terão que informar no aplicativo que a aula começou, 
 
 ## Modelo Conceitual
 ![alt text](https://raw.githubusercontent.com/ArthurSegato/CC1Mb-BD1-Trab/master/Modelo%20Conceitual.PNG "Modelo Conceitual")
+## Modelo Lógico
+![alt text](https://raw.githubusercontent.com/ArthurSegato/CC1Mb-BD1-Trab/master/Modelo%20L%C3%B3gico.PNG "Modelo Lógico")
