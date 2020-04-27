@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D85D57C7-FC00-3713-A83D-6B84B93C7660" name="Aula">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:14:40 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Local_Aula" id="CD39BEA4-3685-5DC7-9EB7-9D5D0164AF50">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:14:46 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Aula" id="204EB6F3-9E30-1E14-730B-F7C18ED95357">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:14:55 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Horário_Aula" id="BD8861F9-81F3-E7FC-5D3D-6512016B90B4">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:15:04 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Avaliação" id="78EDB3EE-0E64-4E6E-B270-0828F34E2E22">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:15:13 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDFDC5C5-C086-E935-3F8F-3935CC7EA958" name="Disciplina">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:14:12 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="05F82F9E-CA59-844C-B892-D0284BE936A1">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:14:22 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Conteudo" id="2AB3E266-3371-C530-4663-8D7A674C49FD">
+<createdBy>arthu</createdBy>
+<createdTime>2020-04-27 12:14:28 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
