@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="forma normal" version="3.5">
-<createdBy>arthu</createdBy>
-<createdTime>2020-04-06 11:19:52 UTC</createdTime>
-<ownerDesignName>ModeloConceitual</ownerDesignName>
-<capitalNames>false</capitalNames>
-</OSDM_Design>
