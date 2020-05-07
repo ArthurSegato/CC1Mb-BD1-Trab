@@ -23,8 +23,9 @@
 <engineerTo>
 <item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Turma" id="3115BF7A-6EB5-F97F-E8A5-E1C555C262AA">
@@ -34,8 +35,9 @@
 <engineerTo>
 <item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -86,4 +86,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2417588E-70DF-EBE9-A64B-07404814050F" name="Usuario PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-04 10:52:38 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<engineerTo>
+<item key="BEA47929-18A6-ACCC-4AF2-2F8FCED727EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
 </Entity>
