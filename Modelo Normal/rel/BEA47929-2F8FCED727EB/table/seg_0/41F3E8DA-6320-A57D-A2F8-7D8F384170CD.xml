@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41F3E8DA-6320-A57D-A2F8-7D8F384170CD" name="Professor">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:09:55 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Formação_Acadêmica" id="773E7F9E-318A-F751-53A2-A3F5027CD3CE">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:10:28 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area_Atuação" id="968B9E1C-6DD3-C55F-02AF-D28A58349838">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:10:45 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preço" id="0ACBDE1C-7643-D562-E108-709E11B39279">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:11:17 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Horário_Disponivel" id="1CBF70F7-1AEA-3F6D-D6CB-76E7886F652F">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:11:47 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Aula" id="5CCDC489-353B-D9BB-CE07-0BE7BD110772">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:12:07 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota" id="61C1C984-EB43-DF2D-8113-B1BE520DFFD6">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:12:23 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuário_Id" id="4C39A79F-88CF-D595-A276-9A487DB62A41">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:20:32 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33EFFCE1-02A0-C059-505E-7EE76E56001F" referredColumn="8ADA25E6-5C50-ADE5-2D03-D1E32F62E079"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8759B322-BBD4-1507-3B3D-B471A9BBF87C" name="Professor_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:21:42 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C39A79F-88CF-D595-A276-9A487DB62A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01B69F68-D0EC-04DC-E047-E97DED881F4A" name="Professor_Usuário_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:20:32 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C39A79F-88CF-D595-A276-9A487DB62A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

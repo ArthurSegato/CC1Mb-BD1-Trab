@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="616213FF-791B-6CE4-AA75-267ADF421D41" name="Aluno">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:09:01 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Instituição" id="D0DF9372-2FDB-7B49-F8DF-2538B0C07589">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:09:33 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turma" id="AAAB0B8A-25F6-EBF9-65D5-DA3CF318572B">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:09:49 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuário_Id" id="446061CA-D9AC-3E49-4016-4952AABE7736">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:19:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F8CD34A-F4A5-AA44-E887-8F3FEB080728" referredColumn="8ADA25E6-5C50-ADE5-2D03-D1E32F62E079"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA3906E0-AF0D-E40C-F32C-93BE1EB539F7" name="Aluno_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:21:50 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="446061CA-D9AC-3E49-4016-4952AABE7736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35A12FC1-DE9F-930E-35DB-7EADEB4BF70D" name="Aluno_Usuário_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:19:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="446061CA-D9AC-3E49-4016-4952AABE7736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

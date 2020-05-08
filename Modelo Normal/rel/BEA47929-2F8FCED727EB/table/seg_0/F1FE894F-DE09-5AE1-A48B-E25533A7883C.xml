@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1FE894F-DE09-5AE1-A48B-E25533A7883C" name="Endereço">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:37:47 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="72C5A77A-35A6-F92B-D065-536C1292748A">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:02:17 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="E535525B-8E22-9BC1-A8CC-1C20EE7A0277">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:49:52 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="CD845DF8-3C53-E9A2-AC4F-00B8D6B5BB98">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:50:03 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="28E66B92-3FFE-A2E0-AC5D-F8D0AA7EC9CD">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:52:37 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rua" id="FDA997DE-9DEA-D303-BAC6-686CCB1E0676">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:54:18 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_Morada" id="30C48417-FCF1-0918-0EEF-CC20B7D44054">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:54:50 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60CAE093-52E8-999A-9E22-7F21CB432A95" name="Endereço_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:02:17 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C5A77A-35A6-F92B-D065-536C1292748A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

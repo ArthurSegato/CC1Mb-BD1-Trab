@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="763DF005-08DA-5AFA-AC8A-2F9A732F7703" name="Aula">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:37:42 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="E256999D-4B60-3C8B-8D6B-C9AB72E1C32C">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:01:47 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Local_Aula" id="19ED665B-2A34-8F66-6BB6-AF8A1C440F68">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:46:04 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Aula" id="4C6410F6-B651-0EE1-EA39-5DE4CC8303A6">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:46:24 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Horário_Aula" id="8C2EA24D-33EB-B757-6C8C-6ED3AF9C0812">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:47:51 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avaliação" id="610EF8AD-F9C2-5860-474E-E933316BAD6E">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:49:27 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Disciplina_Id" id="92C04A20-0543-7AF7-EE6A-2A84B1C011C4">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1CC0C3B-4440-AEF5-66D2-C99D072B888D" referredColumn="5804A192-4953-3D7C-32DA-D4E205120EDF"/>
+</associations>
+</Column>
+<Column name="Professor_Usuário_Id" id="5823EA2A-D767-9665-23F0-220BBF096503">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:28:09 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC02EF4-24D4-4546-9180-2387F4567906" referredColumn="4C39A79F-88CF-D595-A276-9A487DB62A41"/>
+</associations>
+</Column>
+<Column name="Aluno_Usuário_Id" id="5270143B-96A3-2553-25F6-EDA9D81057E4">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:28:21 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2305CF5A-D133-9144-0DCF-87813638C6EA" referredColumn="446061CA-D9AC-3E49-4016-4952AABE7736"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9983F321-26E1-82A5-D736-BBCEA909345F" name="Aula_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:01:47 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E256999D-4B60-3C8B-8D6B-C9AB72E1C32C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2E8AAD1-7996-BDB0-2313-B8AEE32042CB" name="Aula_Disciplina_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:26:51 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92C04A20-0543-7AF7-EE6A-2A84B1C011C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3F19615-BEF1-8ADC-0497-0F6FC8D1DC8D" name="Aula_Professor_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:28:09 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5823EA2A-D767-9665-23F0-220BBF096503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B20AAD78-A2BF-A2D1-A9B0-39CA4BB570F8" name="Aula_Aluno_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:28:21 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5270143B-96A3-2553-25F6-EDA9D81057E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

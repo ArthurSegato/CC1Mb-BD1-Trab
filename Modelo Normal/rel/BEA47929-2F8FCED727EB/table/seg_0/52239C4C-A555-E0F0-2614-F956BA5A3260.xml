@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52239C4C-A555-E0F0-2614-F956BA5A3260" name="Usuário">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:15 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="8ADA25E6-5C50-ADE5-2D03-D1E32F62E079">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:00:31 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="25E81DFB-E4C9-0EB2-C252-46721015B9DB">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sobrenome" id="A173A1D3-F34C-6D42-A0BE-EA73E51271C3">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="56851060-36FD-10A7-F93C-21C01ADF4007">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="405DC1C6-D98B-EE0D-9CF8-0D934FAF357D">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="70DBAA93-8B87-7C05-E92D-89CD81DDB871">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="B276711B-B64A-48EF-8859-503B3A563192">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero" id="7F785576-46AE-EF7A-DA3A-50478E6C77E0">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:58:43 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço_Id" id="FA46138D-04D0-F231-B185-AA33E0A1B85D">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:14:37 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA24CB64-3885-1528-B017-32BD00B65600" referredColumn="72C5A77A-35A6-F92B-D065-536C1292748A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C9D0838-10BC-8519-5B56-3DDB76F78067" name="Usuário_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:00:31 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ADA25E6-5C50-ADE5-2D03-D1E32F62E079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B915FB49-53D2-375D-5ABE-D2EE4D5843FE" name="Usuário_Endereço_FK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:14:37 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA46138D-04D0-F231-B185-AA33E0A1B85D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

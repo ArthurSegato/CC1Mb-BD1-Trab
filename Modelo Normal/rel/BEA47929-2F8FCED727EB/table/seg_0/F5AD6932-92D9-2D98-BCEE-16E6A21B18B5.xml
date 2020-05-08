@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5AD6932-92D9-2D98-BCEE-16E6A21B18B5" name="Disciplina">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:37:36 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="5804A192-4953-3D7C-32DA-D4E205120EDF">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:01:27 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="74F4FB93-82CC-89C4-97CD-45BAA0CD5D10">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:45:17 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Conteudo" id="D16A421F-DC57-64F7-0909-2259F2ABB30D">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 10:45:32 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E97DFF53-7152-5BB5-3EF6-CE7FF113D884" name="Disciplina_PK">
+<createdBy>arthu</createdBy>
+<createdTime>2020-05-08 11:01:27 UTC</createdTime>
+<ownerDesignName>Modelo Normal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5804A192-4953-3D7C-32DA-D4E205120EDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
