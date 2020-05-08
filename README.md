@@ -30,3 +30,5 @@ No momento da aula ambos terão que informar no aplicativo que a aula começou, 
 
 ## Forma Normal
 ![alt text](https://raw.githubusercontent.com/ArthurSegato/CC1Mb-BD1-Trab/master/ModeloNormal.PNG "Forma Normal")
+## Modelo Relacional
+![alt text](https://raw.githubusercontent.com/ArthurSegato/CC1Mb-BD1-Trab/master/ModeloRelacional.PNG "Modelo Relacional")
