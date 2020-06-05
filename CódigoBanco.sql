@@ -20,7 +20,7 @@ create table Endereco(
     rua 				varchar2(32) 	not null,
     numero_morada 		integer 		not null,
 
-    primary key(id_endereco)
+    primary key(id)
 );
 
 create table Professor(
@@ -44,7 +44,7 @@ create table Aluno(
 );
 
 create table Aula(
-    id_aula 				integer 	not null,
+    id 						integer 	not null,
     local_aula 				varchar2(32),
     data_aula 				date 		not null,
     horario_aula 			timestamp 	not null,
@@ -53,13 +53,13 @@ create table Aula(
     id_professor_usuario	integer		not null,
     id_aluno_usuario 		integer		not null,
 
-    primary key(id_aula)
+    primary key(id)
 );
 
 create table Disciplina(
-    id_disciplina 			integer 		not null,
+    id			integer 		not null,
     nome 					varchar2(32) 	not null,
     conteudo				varchar2(64) 	not null,
 
-    primary key(id_disciplina)
+    primary key(id)
 );
