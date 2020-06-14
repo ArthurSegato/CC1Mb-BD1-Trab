@@ -10,6 +10,7 @@ create table Usuario(
     id_endereco 		integer 			not null,
 
     primary key(id)
+    unique(cpf, email)
 );
 
 create table Endereco(
@@ -63,3 +64,8 @@ create table Disciplina(
 
     primary key(id)
 );
+
+
+#Inserir dados
+insert into Usuario 	(id, nome, sobrenome, cpf, rg, telefone, email, genero, id_endereco)
+			values		(01, 'arthur', 'segato', '000.000.000-00', 501285325, '27992630101', 'arthursegato@outlook.com', 'masculino', 01) ;
