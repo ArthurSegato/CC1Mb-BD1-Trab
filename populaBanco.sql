@@ -20,9 +20,9 @@ insert into Usuarios (id, nome, sobrenome, cpf, rg, telefone, email, genero, id_
 insert into Usuarios (id, nome, sobrenome, cpf, rg, telefone, email, genero, id_endereco) values (09, 'rosangela', 'souza', '888.888.888-88', 501285325, '27992630101', 'r0souza@outlook.com', 'feminino', 108);
 insert into Usuarios (id, nome, sobrenome, cpf, rg, telefone, email, genero, id_endereco) values (10, 'sophia', 'kezia', '999.999.999-99', 501285325, '27992630101', 'aaaaaaa@outlook.com', 'feminino', 109);
 
-insert into Professores (formacao_academica, area_atuacao, preco, horario_disponivel, tipo_aula, nota, id_usuario) values ('fisico', 'fisica', 200, 7, 'online', 7.1, 01);
-insert into Professores (formacao_academica, area_atuacao, preco, horario_disponivel, tipo_aula, nota, id_usuario) values ('matemática', 'calculo', 150, 6, 'presencial', 6.3, 02);
-insert into Professores (formacao_academica, area_atuacao, preco, horario_disponivel, tipo_aula, nota, id_usuario) values ('letras', 'filosofia', 35, 3, 'online', 2, 03);
+insert into Professores (formacao_academica, area_atuacao, preco, horario_disponivel, tipo_aula, nota, id_usuario) values ('fisico', 'fisica', 200, 7, 'pratica', 7.1, 01);
+insert into Professores (formacao_academica, area_atuacao, preco, horario_disponivel, tipo_aula, nota, id_usuario) values ('matemática', 'calculo', 150, 6, 'teorica', 6.3, 02);
+insert into Professores (formacao_academica, area_atuacao, preco, horario_disponivel, tipo_aula, nota, id_usuario) values ('letras', 'filosofia', 35, 3, 'teorica', 2, 03);
 
 insert into Alunos (instituicao, turma, id_usuario) values ('uvv','fisica',04);
 insert into Alunos (instituicao, turma, id_usuario) values ('uvv','fisica',05);
@@ -36,6 +36,6 @@ insert into Disciplinas (id, nome, conteudo) values (010,'fisica 1','fisica 1 pa
 insert into Disciplinas (id, nome, conteudo) values (020,'calculo 1','calculo 1 para novatos');
 insert into Disciplinas (id, nome, conteudo) values (030,'filosofia 1','filosofia 1 para novatos');
 
-insert into Aulas (id, local_aula, data_aula, horario_aula,avaliacao,id_disciplina,id_professor_usuario,id_aluno_usuario) values (1221,'casa', 2019, 20, 10, 010, 02, 04);
+insert into Aulas (id, local_aula, data_aula, horario_aula,avaliacao,id_disciplina,id_professor_usuario,id_aluno_usuario) values (1221,'casa', 2019, 20, 10, 020, 02, 04);
 insert into Aulas (id, local_aula, data_aula, horario_aula,avaliacao,id_disciplina,id_professor_usuario,id_aluno_usuario) values (1222,'discord', 2020, 12, 5, 020, 02, 04);
-insert into Aulas (id, local_aula, data_aula, horario_aula,avaliacao,id_disciplina,id_professor_usuario,id_aluno_usuario) values (1223,'discord', 2020, 10, 7, 020, 01, 05);
+insert into Aulas (id, local_aula, data_aula, horario_aula,avaliacao,id_disciplina,id_professor_usuario,id_aluno_usuario) values (1223,'discord', 2020, 10, 7, 010, 01, 05);
